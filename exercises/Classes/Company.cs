@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Classes
 {
@@ -6,14 +7,15 @@ namespace Classes
     {
 
         // Some readonly properties (let's talk about gets, baby)
-        public string Name { get; }
+        public string Name { get; set }
         public DateTime CreatedOn { get; }
-        public Company(string name, string date)
+        public Company(string name, DateTime date)
         {
            Name = Name;
            date = CreatedOn;
 
         }
+        public List<Employee> Employee {get;set;}
 
         // Create a public property for holding a list of current employees
 
@@ -25,6 +27,17 @@ namespace Classes
             The constructor will set the value of the public properties
 
         */
+        public Company()
+        {
+            Employee = new List<Employee>();
+        }
         Company Jamazon = new Company("Jamazon", DateTime);
+         public void ListEmployees()
+    {
+        foreach(Employee.employee in Employees)
+        Console.WriteLine($"{Employee.FullName} works for {name} as {Employee.Title} since {mployee.StartDate})
     }
+    }
+
+   
 }

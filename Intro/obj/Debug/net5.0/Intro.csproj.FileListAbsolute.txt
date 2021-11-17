@@ -1,0 +1,16 @@
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\Intro.exe
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\Intro.deps.json
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\Intro.runtimeconfig.json
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\Intro.runtimeconfig.dev.json
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\Intro.dll
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\ref\Intro.dll
+C:\Users\jamam\workspace\csharp\Intro\bin\Debug\net5.0\Intro.pdb
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.csproj.AssemblyReference.cache
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.AssemblyInfoInputs.cache
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.AssemblyInfo.cs
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.csproj.CoreCompileInputs.cache
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.dll
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\ref\Intro.dll
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.pdb
+C:\Users\jamam\workspace\csharp\Intro\obj\Debug\net5.0\Intro.genruntimeconfig.cache

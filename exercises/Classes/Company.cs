@@ -8,6 +8,12 @@ namespace Classes
         // Some readonly properties (let's talk about gets, baby)
         public string Name { get; }
         public DateTime CreatedOn { get; }
+        public Company(string name, string date)
+        {
+           Name = Name;
+           date = CreatedOn;
+
+        }
 
         // Create a public property for holding a list of current employees
 
@@ -19,5 +25,6 @@ namespace Classes
             The constructor will set the value of the public properties
 
         */
+        Company Jamazon = new Company("Jamazon", DateTime);
     }
 }

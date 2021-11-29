@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace BankConsole51
 {
     class Program
@@ -7,29 +8,42 @@ namespace BankConsole51
         static void Main(string[] args)
         {
 
-        //    use an arg supplied to the program to set the bank name
-        //if the user doesn't supply a name, display a message that they should and exit
+            Bank bank = new Bank();
 
-        // display a welcome message for a bank management system with a list of menu options
-        var bank = new Bank();
             try
             {
-                string bankName = args[0];
-                bank.Name = bankName;
-              
+                string bankname = args[0];
+                bank.Name = bankname;
+
             }
-            catch (IndexOutOfRangeException)
+
+            catch (IndexOutOfRangeException ex)
             {
-                Console.WriteLine("Please supply a bank name!");
+                Console.WriteLine("Please supply a name!");
                 return;
             }
-               Console.WriteLine($"{bank.Name} Management System. Please Choose an Option:");
-                Console.WriteLine("----------------------------------------------------------");
+
+            Console.WriteLine($"Welcome to {bank.Name}'s Management System");
+            Console.WriteLine("---------------------------------------------");
+            Console.WriteLine("Please choose an option");
+            Console.WriteLine("1-Exit");
+            Console.WriteLine("2-Add Account");
+
+            Console.Write("> ");
+            string input = Console.ReadLine();
+            if (input == "1")
+            {
+                return;
+            }
+            else if (input == "2")
+            {
+                bank.AddAccount();
+            }
+            else
+            {
+                return;
+            }
+
         }
     }
-    class Bank
-    {
-    public string bankName
-    }
 }
-
